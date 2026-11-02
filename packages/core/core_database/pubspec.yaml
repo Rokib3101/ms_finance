@@ -1,0 +1,14 @@
+name: core_database
+description: "Local encrypted persistence library for MS Finance"
+version: 1.0.0
+publish_to: 'none'
+
+environment:
+  sdk: '>=3.10.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  flutter_secure_storage: ^10.3.4
